@@ -1,3 +1,9 @@
+# revision 19216
+# category Package
+# catalog-ctan /macros/latex/contrib/gb4e
+# catalog-date 2010-07-03 20:09:25 +0200
+# catalog-license lppl1.2
+# catalog-version undef
 Name:		texlive-gb4e
 Version:	20100703
 Release:	1
@@ -41,6 +47,7 @@ the midnight and covington packages.
 %doc %{_texmfdistdir}/doc/latex/gb4e/README
 %doc %{_texmfdistdir}/doc/latex/gb4e/gb4e-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/gb4e/gb4e-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ the midnight and covington packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
