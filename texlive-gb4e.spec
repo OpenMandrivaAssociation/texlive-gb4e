@@ -48,3 +48,17 @@ the midnight and covington packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100703-2
++ Revision: 752188
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100703-1
++ Revision: 718524
+- texlive-gb4e
+- texlive-gb4e
+- texlive-gb4e
+- texlive-gb4e
+
