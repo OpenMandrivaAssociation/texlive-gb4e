@@ -5,8 +5,8 @@
 # catalog-license lppl1.2
 # catalog-version undef
 Name:		texlive-gb4e
-Version:	20100703
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Linguistic tools
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gb4e
