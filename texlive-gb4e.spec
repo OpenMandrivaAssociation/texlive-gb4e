@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-gb4e
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Linguistic tools
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gb4e
