@@ -3,7 +3,7 @@ Version:	19216
 Release:	2
 Summary:	Linguistic tools
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gb4e
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gb4e
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gb4e.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gb4e.doc.r%{version}.tar.xz
